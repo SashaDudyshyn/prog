@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #FFFFFF;
+    padding: 10px 0;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+.logo{
+    width: 468px;
+    display: inline-block;
+}
+.logo.second{
+    text-align: right;
+}
+#facebook{
+    padding-right: 21px;
+}
+a{
+    text-decoration: none;
+}
+.space{
+    background-color: #FAC960;
+}
+.space.text{
+    text-align: center;
+    display: inline-block;
+    font-size: 44px;
+    width: 679px;
+    height: 108px;
+    margin-left: 130px;
+    margin-top: 91px;
+    margin-bottom: 0px;
+    color: #8A6D2F;
+}
+.space.input{
+    margin-left: 70px;
+}
+#email{
+    margin-top: 40px;
+    margin-bottom: 117px;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    border: 0px;
+    width: 560px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 30px;
+}
+::placeholder{
+    padding-left: 36px;
+    
+}
+#firstbutton{
+    border: 0px;
+    width: 240px;
+    height: 54px;
+    color: #FFFFFF;
+    background-color: #A8863D;
+    font-size: 30px;
+}
+.unlimited.bg{
+    padding: 0px;
+    background-color: #F2F2F2;
+    margin: 0px;
+}
+.unlimited.text.first{
+    padding-top: 77px;
+    padding-bottom: 32px;
+    font-size: 37px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56);
+}
+.unlimited.text.second{
+    font-size: 23px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 56px;
+}
+p{
+    margin: 0px;
+}
+#infinity{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 81px;
+}
+.mobile.text.first{
+    padding-top: 76px;
+    padding-bottom: 32px;
+    font-size: 37px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56);
+}
+.mobile.text.second{
+    font-size: 23px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 32px;
+}
+#mobileimg{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 19.43px; 
+}
+.friends.bg{
+    background: #FAC960;
+}
+.friends.text.first{
+    padding-top: 54px;
+    padding-bottom: 31px;
+    font-size: 37px;
+    text-align: center;
+    color: #8A6D2F;
+}
+.friends.text.second{
+    font-size: 22px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 33px;
+}
+#secondbutton{
+    width: 61px;
+    height: 22px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #758696;
+    display: block;
+    margin: 0 auto;
+}
+.friends.button{
+    padding-bottom: 107px;
+}
+footer{
+    background: #F2F2F2;
+}
+#logo{
+    display: block;
+    margin: 0 auto;
+    padding-top: 81px;
+    padding-bottom: 24px;
+}
+#tw, 
+#fb,
+#mail{
+    padding-right: 22px;
+    margin-bottom: 81.37px;
+}
+#tw{
+    margin-left: 418px;
+}
