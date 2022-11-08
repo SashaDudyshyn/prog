@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+p,
+a,
+h1,
+h2,
+h3{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #776677;
+}
+header{
+    width: 1300px;
+    margin: 0 auto;
+}
+.travelers,
+.travelers-ikons,
+.travelers-ikons>nav{
+    display: inline-block;
+}
+.travelers{
+    float: left;
+}
+.travelers-ikons{
+    float: right;
+}
+.ikon{
+    font-size: 16px;
+    line-height: 22px;
+    padding: 40px;
+}
+#home{
+    color: #BC436A;
+}
+.travelers-title{
+    padding-top: 40px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #BC436A;
+}
+.travelers-button{
+    background: #386E41;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px;
+}
+.best-vacation{
+    position: relative;
+    padding-top: 198px;
+    padding-left: 120px;
+}
+.best>h1,
+.vacation>h1{
+    display: inline-block;
+}
+.big-text{
+    font-size: 36px;
+    line-height: 49px;
+    color: #333333;
+}
+.big-title{
+    font-size: 36px;
+    line-height: 49px;
+    color: #BC436A;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.best-text{
+    padding-top: 23px;
+    padding-bottom: 54px;
+}
+.small-text{
+    font-size: 18px;
+    line-height: 25px;
+    color: #7A7A7A;
+}
+.square{
+    width: 120px;
+    height: 120px;
+    border: 10px solid #386E41;
+    position: absolute;
+    left: -35px;
+}
+.take{
+    margin-top: 229px;
+    padding-left: 120px;
+    position: relative;
+    display: block;
+    margin-bottom: 33px;
+}
+.take::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border:  solid black;
+    border-width: 2px 0 0 2px;
+    transform: translate(-50%, -50%) rotate(135deg);
+    position: absolute;
+    right: 75%;
+    top: 50%;
+} 
+.inputs{
+    display: flex;
+    width: 1200px;
+    background: #386E41;
+    border-radius: 8px;
+    margin: 0 auto;
+    height: 100px;
+    justify-content: space-around;
+    
+}
+.country{
+    background: #386E41;
+    border: none;
+}
+.country::placeholder{
+    color: #FFFFFF;
+    border-bottom: #FFFFFF 1px solid ;
+    font-size: 18px;
+    line-height: 25px;
+}
+#search{
+    width: 145px;
+    height: 41px;
+    background: #BC436A;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+    border-radius: 4px;
+    border: none;
+    margin: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.destination{
+    padding-top: 72px;
+    padding-bottom: 47px;
+    text-align: center;
+}
+body{
+    position: relative;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: right top 115px;
+    z-index: 0;
+    padding-bottom: 73px;
+}
